@@ -137,6 +137,8 @@ __attribute__((weak)) void matrix_read_cols_on_row(matrix_row_t current_matrix[]
 #    if defined(MATRIX_ROW_PINS) && defined(MATRIX_COL_PINS)
 #        if (DIODE_DIRECTION == COL2ROW)
 
+
+
 static bool select_row(uint8_t row) {
     pin_t pin = row_pins[row];
     if (pin != NO_PIN) {
@@ -186,6 +188,7 @@ __attribute__((weak)) void matrix_read_cols_on_row(matrix_row_t current_matrix[]
     for (uint8_t col_index = 0; col_index < MATRIX_COLS; col_index++, row_shifter <<= 1) {
         uint8_t pin_state = readMatrixPin(col_pins[col_index]);
 
+        // here
         // Populate the matrix row with the state of the col pin
         current_row_value |= pin_state ? 0 : row_shifter;
     }

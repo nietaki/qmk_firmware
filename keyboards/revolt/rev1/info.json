@@ -16,7 +16,8 @@
     "matrix_pins": {
         "cols": [
             "GP22", "GP21", "GP20", "GP19", "GP18", "GP17", "GP16",
-            "GP8",  "GP7",  "GP6",  "GP3",  "GP2",  "GP1",  "GP0"],
+            "GP8",  "GP7",  "GP6",  "GP3",  "GP2",  "GP1",  "GP0",
+            "GP14", "GP15", "GP4"],
         "rows": ["GP13", "GP12", "GP11", "GP10", "GP9"]
     },
     "url": "https://github.com/nietaki/revolt-keyboard",
@@ -104,10 +105,15 @@
                 {"label": "RT2", "matrix": [4, 7], "x": 9.5, "y": 4},
                 {"label": "RT1", "matrix": [4, 8], "x": 10.5, "y": 4},
                 {"label": "ALT", "matrix": [4, 9], "x": 13, "y": 4},
+
                 {"label": "left", "matrix": [4, 10], "x": 14, "y": 4},
                 {"label": "down", "matrix": [4, 11], "x": 15, "y": 4},
                 {"label": "up", "matrix": [4, 12], "x": 16, "y": 4},
-                {"label": "right", "matrix": [4, 13], "x": 17, "y": 4}
+                {"label": "right", "matrix": [4, 13], "x": 17, "y": 4},
+
+                {"label": "LMB", "matrix": [4, 14], "x": 14, "y": 4},
+                {"label": "MMB", "matrix": [4, 15], "x": 15, "y": 4},
+                {"label": "RMB", "matrix": [4, 16], "x": 16, "y": 4}
             ]
         }
     }

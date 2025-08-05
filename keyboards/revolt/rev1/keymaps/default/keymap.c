@@ -16,8 +16,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┤                         ├────────┼────────┼────────┼────────┼────────┼────────┼────────┤
      KC_LSFT ,KC_Z    ,KC_X    ,KC_C    ,KC_V    ,KC_B    ,XXXXXXX ,                          XXXXXXX ,KC_N    ,KC_M    ,KC_COMM ,KC_DOT  ,KC_SLSH ,KC_RSFT ,
   //├────────┼────────┼────────┼────────┼────┬───┴────┬───┼────────┼────────┤       ├────────┼────────┼───┬────┴───┬────┼────────┼────────┼────────┼────────┤
-     KC_LCTL ,KC_LGUI ,KC_LGUI ,XXXXXXX ,    KC_LALT ,    KC_SPC , KC_EQL,           KC_ENT  , KC_MINS,    KC_RALT ,     KC_LEFT ,KC_DOWN ,KC_UP   ,KC_RGHT
+     KC_LCTL ,KC_LGUI ,KC_LGUI ,XXXXXXX ,    KC_LALT ,    KC_SPC , KC_EQL,           KC_ENT  , KC_MINS,    KC_RALT ,     KC_LEFT ,KC_DOWN ,KC_UP   ,KC_RGHT,
   //└────────┴────────┴────────┴────────┘    └────────┘   └────────┴────────┘       └────────┴────────┘   └────────┘    └────────┴────────┴────────┴────────┘
+         KC_MS_BTN1, KC_MS_BTN3, KC_MS_BTN2
   ),
 
   /* [_SYMB] = LAYOUT( */
