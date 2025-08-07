@@ -1,7 +1,6 @@
 POINTING_DEVICE_ENABLE = yes
-POINTING_DEVICE_DRIVER = azoteq_iqs5xx
-I2C_DRIVER_REQUIRED = yes
-MOUSEKEY_ENABLE = yes
+POINTING_DEVICE_DRIVER = analog_joystick
+I2C_DRIVER_REQUIRED = no
+# MOUSEKEY_ENABLE = yes
 
-
-CONSOLE_ENABLE = yes         # Console for debug
+# CONSOLE_ENABLE = yes         # Console for debug

@@ -8,7 +8,7 @@
     "features": {
         "bootmagic": false,
         "command": false,
-        "console": false,
+        "console": true,
         "extrakey": true,
         "mousekey": true,
         "nkro": true
@@ -111,9 +111,9 @@
                 {"label": "up", "matrix": [4, 12], "x": 16, "y": 4},
                 {"label": "right", "matrix": [4, 13], "x": 17, "y": 4},
 
-                {"label": "LMB", "matrix": [4, 14], "x": 14, "y": 4},
-                {"label": "MMB", "matrix": [4, 15], "x": 15, "y": 4},
-                {"label": "RMB", "matrix": [4, 16], "x": 16, "y": 4}
+                {"label": "LMB", "matrix": [4, 14], "x": 14, "y": 6},
+                {"label": "MMB", "matrix": [4, 15], "x": 15, "y": 6},
+                {"label": "RMB", "matrix": [4, 16], "x": 16, "y": 6}
             ]
         }
     }
