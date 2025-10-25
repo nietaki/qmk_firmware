@@ -2,6 +2,7 @@
     "manufacturer": "nietaki",
     "keyboard_name": "revolt_rev1",
     "maintainer": "nietaki",
+    "url": "https://github.com/nietaki/revolt-keyboard",
     "processor": "RP2040",
     "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
@@ -20,7 +21,6 @@
             "GP14", "GP15", "GP4"],
         "rows": ["GP13", "GP12", "GP11", "GP10", "GP9"]
     },
-    "url": "https://github.com/nietaki/revolt-keyboard",
     "usb": {
         "device_version": "1.0.0",
         "vid": "0x1987",

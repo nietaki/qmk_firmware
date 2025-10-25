@@ -1,22 +1,17 @@
 # Revolt
 
-<!-- ![Planck](https://i.imgur.com/q2M3uEU.jpg) -->
+- Keyboard Maintainer: [nietaki](https://github.com/nietaki)
+- Hardware Supported: RPI 2040
+- Hardware Availability: 
+  - [purchase from NTK studio](https://ntkstudio.net/products/revolt-keyboard/)
+  - [make your own](https://github.com/nietaki/revolt-keyboard) (Kicad, CC-BY-SA-4.0 license)
 
-<!-- A compact 40% (12x4) ortholinear keyboard kit made and sold by OLKB and Massdrop. [More info on qmk.fm](https://qmk.fm/planck/) -->
-
-* Keyboard Maintainer: [nietaki](https://github.com/nietaki)
-* Hardware Supported: RPI 2040
-* Hardware Availability: open-source (KiCad, CC-BY-SA-4.0 license)
-
+<!-- make revolt/base:default -->
 Make example for this keyboard (after setting up your build environment):
 
-    make revolt/base:default
+    qmk compile -kb revolt/rev1 -km default
 
-Flashing example for this keyboard:
-
-    make revolt/base:default:flash
-
-See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
+Flash the firmware by putting the kyboard into the bootloader mode and dragging the compiled `.uf2` file onto the RPI-RP2 drive that appears.
 
 ## Bootloader
 
