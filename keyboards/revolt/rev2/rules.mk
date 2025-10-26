@@ -8,6 +8,8 @@ I2C_DRIVER_REQUIRED = no
 
 # CONSOLE_ENABLE = yes         # Console for debug
 
+LAYER_LOCK_ENABLE = yes
+
 ### below features are defined in info.json:
 # BOOTMAGIC_ENABLE = yes
 # EXTRAKEY_ENABLE = yes

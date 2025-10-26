@@ -11,6 +11,8 @@
 - [x] test the layout visualisation
 - [x] add other layers
 - [x] run the style check
+- [ ] layer 1 LAYER LOCK
+- [ ] keyboard photo
 
 ## Revisions
 
@@ -43,6 +45,8 @@ Enter the bootloader in one of 3 ways:
 
 Make sure you have the official hardware and you're working on the correct revision.
 
-Before submitting a PR please remember to:
+Before submitting a PR to the Revolt firmware please remember to:
 
+- test your changes on the actual hardware
 - check the linter (`qmk lint -kb revolt/rev2`)
+- when adding new features, consider adding them to the default keymap (without changing existing mappings)

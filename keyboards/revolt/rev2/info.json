@@ -9,6 +9,7 @@
     "diode_direction": "COL2ROW",
     "tags": ["split", "ergonomic", "ortho", "choc v1", "rp2040", "choc spaced", "65%"],
     "features": {
+        "backlight": true,
         "bootmagic": true,
         "command": false,
         "console": true,
@@ -19,7 +20,6 @@
     },
     "backlight": {
         "breathing": false,
-        "driver": "pwm",
         "levels": 3,
         "max_brightness": 255,
         "on_state": 1,
