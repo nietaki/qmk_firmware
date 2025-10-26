@@ -8,7 +8,7 @@
 
 
 ## TODO
-- [ ] test the layout visualisation
+- [x] test the layout visualisation
 - [ ] add other layers
 - [x] run the style check
 
