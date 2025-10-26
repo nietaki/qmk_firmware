@@ -10,7 +10,7 @@
 ## TODO
 - [ ] test the layout visualisation
 - [ ] add other layers
-- [ ] run the style check
+- [x] run the style check
 
 ## Revisions
 
