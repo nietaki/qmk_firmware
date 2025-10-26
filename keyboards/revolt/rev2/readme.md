@@ -1,5 +1,7 @@
 # Revolt
 
+![Imgur](https://i.imgur.com/agVoXko.jpeg)
+
 - Keyboard Maintainer: [Jacek Królikowski](https://github.com/nietaki)
 - Hardware Supported: RPI 2040, Revolt Keyboard rev2
 - Hardware Availability: 
@@ -12,7 +14,7 @@
 - [x] add other layers
 - [x] run the style check
 - [ ] layer 1 LAYER LOCK
-- [ ] keyboard photo
+- [x] keyboard photo
 
 ## Revisions
 
@@ -48,5 +50,7 @@ Make sure you have the official hardware and you're working on the correct revis
 Before submitting a PR to the Revolt firmware please remember to:
 
 - test your changes on the actual hardware
+- format the C code `clang-format -i keyboards/revolt/*/*.(h|c)`
 - check the linter (`qmk lint -kb revolt/rev2`)
+- `qmk format-json -i keyboards/revolt/*/*.json`
 - when adding new features, consider adding them to the default keymap (without changing existing mappings)
