@@ -1,23 +1,16 @@
 #include "quantum.h"
 
 void keyboard_pre_init_kb(void) {
+  // backlight
+  gpio_set_pin_output(GP28);
+  gpio_write_pin_high(GP28);
+
   // Call the keyboard pre init code.
   keyboard_pre_init_user();
-
-
-  // RDY
-  gpio_set_pin_input_high(GP14);
-  //gpio_set_pin_output_open_drain(GP14);
-  //gpio_write_pin_high(GP14);
-
-  // GP15 is NRST
-  gpio_set_pin_output(GP15);
-  gpio_write_pin_high(GP15);
 }
 
 bool process_record_kb(uint16_t keycode, keyrecord_t *record) {
-  // If console is enabled, it will print the matrix position and status of each key pressed
-
+  // because of the way the mouse keys are connected, they would show up on multiple rows
   if(record->event.key.col >= 14 && record->event.key.row < 4) {
     return false;
   }
